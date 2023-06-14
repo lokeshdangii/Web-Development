@@ -1,0 +1,30 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    position: sticky;
+    bottom: 10px;
+    left: 35px;
+}
+
+#box2{
+    position:relative;
+    top: 50px;
+    left: 37.6%;
+}
+
+#box3{
+    position: absolute;
+    right: 10px;
+}
+
+
+#box4{
+    position:fixed;
+    bottom: 89px;
+}
