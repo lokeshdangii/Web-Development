@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+}
+
+#container{
+    height: 200px;
+    width: 800px;
+    border: 2px solid blue;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#Box1{
+    background-color: aqua;
+    
+}
+
+#Box2{
+    background-color:bisque;
+    
+}
+
+#Box3{
+    background-color:brown;
+    
+}
+#Box4{
+    background-color:darkcyan;
+    
+}
+#Box5{
+    background-color:lightslategrey;
+    
+}
+
