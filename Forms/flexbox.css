@@ -8,8 +8,8 @@ h1{
     border: 2px solid blue;
     margin-left: 300px;
     display: flex;
-    flex-direction: row-reverse;
-    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    flex-direction: column;
     /* flex-direction: column-reverse; */
 
     
