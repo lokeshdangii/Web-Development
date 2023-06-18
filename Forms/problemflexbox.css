@@ -1,0 +1,18 @@
+div{
+    border: 2px solid black;
+    width: 700px;
+    height: 50px;
+    background-color:rgb(144, 42, 96);
+}
+
+#list{
+    display: flex;
+    justify-content: space-evenly;   
+    list-style-type:none;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    background-color: cornsilk;
+}
