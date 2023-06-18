@@ -1,0 +1,25 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 2s;
+    /* transition-timing-function: steps(5);  */
+    /* change takes place in 5 steps */
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+
+
+
+    /* Transition Shorthand
+    property name | duration | timing-function | delay */
+
+    /* transition: all 2s ease-in 1s; */
+}
+
+div:hover{
+    background-color: rgb(77, 24, 33);
+    color: white;
+    font-size: 50px;
+}
