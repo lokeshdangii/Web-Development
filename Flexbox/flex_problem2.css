@@ -1,0 +1,20 @@
+#outer{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:center;
+    /*  it will align the item along the main axis i.e. left to right */
+    background-color: aqua;
+    align-items: center; 
+
+    /* Align items align along the cross axis that is top to bottom */
+}
+
+
+#inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid red;
+    background-color: deepskyblue;
+}
