@@ -1,0 +1,24 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-top: 4px solid rgb(222, 17, 103);
+    background-color: rgb(114, 163, 163);
+    border-radius: 50%;
+
+    animation-name: spinAnime;
+    animation-duration:1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    
+
+}
+
+@keyframes spinAnime{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
