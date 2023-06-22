@@ -15,9 +15,18 @@
     border: 1px solid black;
     height: 200px;
     width: 150px;
-    margin-top: 20px;
+    margin-top: 15px;
     background-image: radial-gradient(grey, red);
     background-image: radial-gradient(grey, red, yellow);
     background-image: radial-gradient(circle,grey, red, blue);
     background-image: radial-gradient(grey 20%, red 55%, yellow 20%);  
+}
+
+
+.conic{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    margin-top: 15px;
+    background-image: conic-gradient(from 90deg,  red, yellow);
 }
