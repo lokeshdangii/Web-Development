@@ -1,0 +1,6 @@
+h1{
+    text-shadow: 3px 3px 3px blue;
+/*              Horizontal | Vertical | blur | Color  */
+
+    text-shadow: 3px 3px 3px red, 4px 4px 4px green;
+}
