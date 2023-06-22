@@ -2,8 +2,13 @@
     background-color: darkcyan;
     height: 200px;
     width: 150px;
-    box-shadow: 10px 10px 10px grey, 10px 10px 10px blue;
+    box-shadow: 10px 10px 10px grey;
     /*        Horizontal | Vertical | blur | Color */
+
+    box-shadow: 10px 10px 10px grey, 10px 10px 10px blue;
+    
+
+    box-shadow: -10px -10px 10px grey, 10px 10px 10px blue;
 }
 
 /* by default the color of the shadow will be equal to the color of the text of the box  */
