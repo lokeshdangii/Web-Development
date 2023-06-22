@@ -2,7 +2,7 @@
     background-color: darkcyan;
     height: 200px;
     width: 150px;
-    box-shadow: 10px 10px 10px grey;
+    box-shadow: 10px 10px 10px grey, 10px 10px 10px blue;
     /*        Horizontal | Vertical | blur | Color */
 }
 
