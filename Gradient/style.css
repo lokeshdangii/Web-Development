@@ -19,4 +19,5 @@
     background-image: radial-gradient(grey, red);
     background-image: radial-gradient(grey, red, yellow);
     background-image: radial-gradient(circle,grey, red, blue);
+    background-image: radial-gradient(grey 20%, red 55%, yellow 20%);  
 }
