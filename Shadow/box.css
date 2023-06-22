@@ -1,0 +1,9 @@
+.box{
+    background-color: darkcyan;
+    height: 200px;
+    width: 150px;
+    box-shadow: 10px 10px 10px grey;
+    /*        Horizontal | Vertical | blur | Color */
+}
+
+/* by default the color of the shadow will be equal to the color of the text of the box  */
