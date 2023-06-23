@@ -1,0 +1,40 @@
+.img{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#txt1{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#txt2{
+    position: relative;
+    top: 0px;
+    left: 100vw;
+}
+
+#txt3{
+    position: relative;
+    top: 500px;
+    left: 0px;
+}
+
+
+#txt4{
+    position: relative;
+    top: 500px;
+    left: 100%;
+    
+}
+
+#center{
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+}
