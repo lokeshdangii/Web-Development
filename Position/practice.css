@@ -3,6 +3,7 @@
     width: 500px;
     background-color: aqua;
     border: 1px solid black;
+    position: relative;
 }
 
 #txt1{
