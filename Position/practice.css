@@ -4,6 +4,7 @@
     background-color: aqua;
     border: 1px solid black;
     position: relative;
+    display: inline-block;
 }
 
 #txt1{

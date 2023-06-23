@@ -1,0 +1,45 @@
+
+        .container {
+
+            position: relative;
+            display: inline-block;
+            background-color: cadetblue;
+            width: 300px;
+            height: 300px;
+        }
+        
+       
+        
+        .text {
+            position: absolute;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .top-left {
+            top: 10px;
+            left: 10px;
+        }
+        
+        .top-right {
+            top: 10px;
+            right: 10px;
+        }
+        
+        .bottom-left {
+            bottom: 10px;
+            left: 10px;
+        }
+        
+        .bottom-right {
+            bottom: 10px;
+            right: 10px;
+        }
+        
+        .center {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
