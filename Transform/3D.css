@@ -1,0 +1,19 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border: 1px solid black;
+}
+
+.translated{
+    transform: perspective(10px) translateZ(-10px) rotate(45deg);
+    
+}
+
+.scaled{
+    transform: perspective(360px) scaleZ(10)  rotateX(35deg) ;
+}
+
+
+/* perspective mention is must for translate and Scale */
+/* Rotate doesn't need perspective mention */
