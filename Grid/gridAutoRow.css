@@ -1,0 +1,19 @@
+.container{
+    background-color: rgb(111, 104, 104);
+    border: 2px solid black;
+    height: 700px;
+
+    display: grid;
+    grid-gap: 10px;
+
+    grid-auto-rows:minmax(auto, auto);
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.box{
+    /* height: 100px; */
+    /* width: 100px; */
+    background-color: chocolate;
+    border: 1px solid blue;
+}
