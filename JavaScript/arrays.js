@@ -1,3 +1,5 @@
+// Arrays of primitive values
+
 let numbers = [1,3,5,6,];
 console.log(numbers);
 
@@ -6,12 +8,12 @@ console.log(numbers);
 
 // *End --> push()
 numbers.push(9);
-// console.log(numbers);
+console.log(numbers);
 
 
 // Beginning --> unshift()
 numbers.unshift(0);
-// console.log(numbers);
+console.log(numbers);
 
 
 // Mid --> splice()
