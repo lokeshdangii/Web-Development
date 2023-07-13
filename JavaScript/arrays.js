@@ -21,7 +21,7 @@ numbers.splice(2,0,'a','b','c');  // 2 is index, 0 is delete count , 'a b c' are
 console.log(numbers);
 
 
-// SEARCHING
+// SEARCHING  --> indexof(), includes()
 
 console.log(numbers.indexOf(9));
 console.log(numbers.includes(7));
