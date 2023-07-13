@@ -4,18 +4,18 @@ let numbers2 = numbers;
 
 // numbers = [] --> One way 
 
-// numbers.length = 0;  --> Second way  Most used
+numbers.length = 0;  //--> Second way  Most used
 
-// numbers.splice(0,numbers.length);
+numbers.splice(0,numbers.length);
 // Third Way 
 //  second and third way is the best practice
 
 
 // Another way
 
-while(numbers.length > 0){
-    numbers.pop();
-}
+// while(numbers.length > 0){
+//     numbers.pop();
+// }
 
 console.log(numbers);
 console.log(numbers2);
