@@ -47,3 +47,51 @@ console.log(sum(1,2,3,4,5));  // o/p --> 1+2 = 3  extra arguments will store in 
 
 
 sum(1,2,4,6,8,0,3); 
+
+
+// Argumet is the special object in JS function
+
+function add(){              // Declaring argument in function definition in not must
+    total = 0
+    for(let value of arguments){       // this way we can add/use multiple arguments
+        total = total + value;
+    }
+
+    return total;
+}
+
+
+console.log(add(1,2,3,4,5,7));
+
+
+
+function addition(...args){
+    console.log(args);
+}
+
+addition(10,45,12,15,19,17);       // O/P --> Array of arguments
+
+
+//  REST Operator 
+
+function addition1(num1, num2 , ...args){    // first two arguments will assign to num1 and num2
+    console.log(args);
+}
+
+addition1(2,4,6,7,9,1,23,44,55);
+
+
+
+
+// Default parameter
+
+function interest(p,r=3,t=4){   // default 
+    return (p*r*t)/100;
+}
+
+console.log(interest(700,4,2)); 
+
+
+
+
+
