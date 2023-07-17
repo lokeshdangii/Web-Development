@@ -11,17 +11,26 @@
 
 
 
-function eventFun(){
-    console.log('I have clicked on the document');
-}
+// function eventFun(){
+//     console.log('I have clicked on the document');
+// }
   
 
-document.addEventListener('click',eventFun);
+// document.addEventListener('click',eventFun);
 
-// removeEventListener
+// // removeEventListener
 
-document.removeEventListener('click',eventFun);
-
-
+// document.removeEventListener('click',eventFun);
 
 // Functions must be same to remove a event
+
+
+const ele = document.querySelectorAll('#para');
+// console.log(ele);
+
+ele.addEventListener('click', function(event){
+    console.log(event);
+});
+
+
+ 
