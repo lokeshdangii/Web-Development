@@ -25,12 +25,23 @@
 // Functions must be same to remove a event
 
 
-const ele = document.querySelectorAll('#para');
-// console.log(ele);
+// const ele = document.querySelectorAll('#para');
+// // console.log(ele);
 
-ele.addEventListener('click', function(event){
-    console.log(event);
-});
+// ele.addEventListener('click', function(event){
+//     console.log(event);
+// });
 
 
+
+// thirdlink.addEventListener('click', function(event){})
  
+
+let links = document.querySelectorAll('a');
+let thirdlink = links[2];
+
+
+thirdlink.addEventListener('click',function(event){
+    event.preventDefault();
+    console.log('Maza Aaya');
+})
