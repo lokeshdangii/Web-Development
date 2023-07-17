@@ -1,6 +1,7 @@
 // let --> Only inside the block Local
 // var --> if defined inside the function the scope is only in the function else in the complete file
 
+
 for(var v=0;v<=10;v++){
 
 }
