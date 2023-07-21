@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Share Modal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Wrapper -->
+    <div class="w-[100vw] h-[100vh] flex relative overflow-hidden items-center justify-center bg-[#171616] ">
+        <!-- Circle 1 -->
+        <div class=" w-28 h-28 rounded-full absolute bg-[#b00d0d]" > </div>
+
+        <!-- Card -->
+        <div>
+            <img src="profile_photo.jpeg" alt="photo" class="rounded-full">
+             <h2>Lokesh Dangi</h2>
+            <h3>Web Developer</h3>
+
+            <!-- Button Group -->
+            <div>
+                <button onclick="openModal()">
+                    <i class="fa-solid fa-share"></i>
+                    <div>Share My Profile</div>
+                </button>
+                <button>Follow me</button>
+            </div>
+        </div>
+
+        <!-- Circle 2 -->
+        <div class=" w-28 h-28 rounded-full absolute right-4 bg-[#4133aa]" > </div>
+
+        <!-- Modal Component -->
+        <div class="modal scale-0 rounded-3xl">
+            <!-- modal header -->
+            <div>
+                <h1>Share My Profile</h1>
+                <div>
+                    <i class="fa-solid fa-xmark close"></i>
+                </div>
+            </div>
+
+            <div>
+                <h3>Share this via</h3>
+                <div>
+                    <a href="">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Overlay -->
+        <div class="overlay" onclick="closeModal()"></div>
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+    <script src="https://kit.fontawesome.com/c22c28f823.js" crossorigin="anonymous"></script>
+</body>
+</html>
