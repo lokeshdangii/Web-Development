@@ -1,6 +1,6 @@
 # Web-Development
 
-Welcome to my Web Development Practice repository! Here, I have compiled a collection of projects and exercises that showcase my journey in learning and applying various front-end technologies. From HTML and CSS to JavaScript and Tailwind CSS, this repository captures my progress and growth as a front-end developer.
+Welcome to my Web Development repository! Here, I have compiled a collection of projects and exercises that showcase my journey in learning and applying various front-end technologies. From HTML and CSS to JavaScript and Tailwind CSS, this repository captures my progress and growth as a front-end developer.
 
 ## Table of Contents
 
