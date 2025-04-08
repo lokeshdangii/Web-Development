@@ -39,7 +39,7 @@ div{
 #Box2{
     background-color:bisque;
     height: 200px;
-    flex-grow: 1;
+    flex-grow: 3;
     
 }
 

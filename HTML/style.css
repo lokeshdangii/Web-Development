@@ -11,7 +11,7 @@ h1{
     height: 50px;
     background-color: blueviolet;
     border-width: 2px;
-    border-style: dashed;
+    border-style:double;
     text-align: center;
     border-color: yellow;
 

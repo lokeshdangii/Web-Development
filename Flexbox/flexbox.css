@@ -6,22 +6,22 @@ h1{
     height: 200px;
     width: 800px;
     border: 2px solid blue;
-    margin-left: 300px;
+    margin-left: 400px;
     display: flex;
     /* flex-direction: row-reverse; */
-    flex-direction: column;
+    flex-direction:row;
     /* flex-direction: column-reverse; */
+    /* flex-direction: column; */
 
-    
 }
 
 div{
     height: 100px;
     width: 100px;
-    display: inline-block;
+    display:inline-block;
     text-align: center;
     border: 1px solid black;
-    padding: 5px;
+    padding: 20px;
 }
 
 #Box1{

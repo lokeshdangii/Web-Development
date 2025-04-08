@@ -1,4 +1,4 @@
-div{
+.hi{
     height: 100px;
     width: 100px;
     background-color: aqua;
@@ -15,7 +15,7 @@ div{
     animation-iteration-count: infinite;
     animation-direction: reverse; */
 
-    animation: colorAnime 0.5s ease-in 1s infinite normal
+    animation: colorAnime 0.5s ease-in 1s infinite normal;
 
 }
 

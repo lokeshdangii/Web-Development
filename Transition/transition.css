@@ -1,4 +1,4 @@
-div{
+.container{
     height: 100px;
     width: 100px;
     background-color: aqua;
@@ -18,7 +18,7 @@ div{
     /* transition: all 2s ease-in 1s; */
 }
 
-div:hover{
+.container:hover{
     background-color: rgb(77, 24, 33);
     color: white;
     font-size: 50px;
