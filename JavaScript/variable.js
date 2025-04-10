@@ -9,6 +9,6 @@ console.log(name);
 
 
 const numBer = 55;
-console.log(num);
+console.log(numBer);
 
 // const numBer = 45;

@@ -20,8 +20,8 @@ rectanleObject.color = "Yellow";
 delete rectanleObject.color;
 // console.log(rectanleObject);
 
-console.log(rectanleObject.constructor); 
-console.log(Rectangle.constructor);
+// console.log(rectanleObject.constructor); 
+// console.log(Rectangle.constructor);
 
 
 let Rectangle1 = new Function('length','breadth',`this.length = length;
