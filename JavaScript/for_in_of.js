@@ -15,6 +15,6 @@ for (let key of Object.keys(rectangle)){  // for keys
 }
 
 
-for (let key of Object.entries(rectangle)){  // for printing key- value pair
-    console.log(key);
+for (let entry of Object.entries(rectangle)){  // for printing key- value pair
+    console.log(entry);
 }

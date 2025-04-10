@@ -1,6 +1,6 @@
 let courses = [
-    {no:1, naam:'Lokesh'},
-    {no:2, naam:'Rahul'}
+    {no:1, naam:'Python'},
+    {no:2, naam:'Java'}
 ];
 
 console.log(courses);

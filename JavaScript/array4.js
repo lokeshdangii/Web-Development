@@ -10,6 +10,3 @@ console.log(combined);
 
 let sliced = combined.slice(2,4);
 console.log(sliced);
-
-
-console.log(combined);
